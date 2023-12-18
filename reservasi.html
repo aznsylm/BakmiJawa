@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakmi Jawa Pariharto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Animated Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logopendopo.png" class="animate__animated animate__bounceInLeft" alt="" />
+                </a>
+                <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+                    aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-rs-food">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="hvr-float-shadow" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="hvr-float-shadow" href="about.html">Profil</a></li>
+                        <li class="nav-item"><a class="hvr-float-shadow" href="menu.html">Menu</a></li>
+                        <li class="nav-item"><a class="hvr-float-shadow" href="reservasi.html">Reservasi</a></li>
+                        <li class="nav-item"><a class="hvr-float-shadow" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <div class="all-page-title page-breadcrumb">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Reservasi</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-12">
+                <form action="" method="post">
+                    <div class="heading-title text-center mt-5">
+                        <h1>Reservasi</h1>
+                        <p>Silakan Isi Form Berikut Untuk Melakukan Reservasi/Booking.</p>
+                    </div>
+                    <div class="container-table p-4 text-center">
+                        <div class="row m-4">
+                            <div class="col">
+                                <p>Pesan</p>
+                                <div class="form-floating">
+                                    <input type="time" class="form-control" id="nama" placeholder="">
+                                    <label for="nama">Waktu</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>Detail Customer</p>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="Telephone" placeholder="">
+                                    <label for="Telephone">Nama</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-4">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="tanggal" placeholder="">
+                                    <label for="tanggal">Tanggal</label>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="waktu" placeholder="">
+                                    <label for="waktu">No. Telephone</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-4">
+                            <div class="col">
+                                <div class="form-floating">
+                                    <select class="form-select" id="floatingSelect"
+                                        aria-label="Floating label select example">
+                                        <option selected>Pilih Tempat</option>
+                                        <option value="1">Meja Pendopo</option>
+                                        <option value="2">Meja Outdoor</option>
+                                        <option value="4">Lesehan</option>
+                                    </select>
+                                    <label for="floatingSelect">Lokasi</label>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="jumlorang" placeholder="">
+                                    <label for="jumlorang">Jumlah Orang</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-3 mb-3">
+            <button type="button" class="btn btn-lg">Kirim Reservasi</button>
+        </div>
+    </div>
+
+    <!-- Customer Review -->
+    <div class="container heading-swiper mt-5" id="customer">
+        <div class="row text-center mb-3">
+            <div class="col lg-12">
+                <h3>Review Pengunjung</h3>
+                <p>Kesan kesan, Saran dan kritik customer penting bagi kami untuk <br> mengevaluasi setiap pelayanan dan
+                    juga penyajian</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper mt-3 mb-5">
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 600px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Diklat Team</h5>
+                                <p class="card-text">Sudah kedua kalinya, datang kan merasakan Bakmi Goreng kuning
+                                    dengan tingkat kepedasan cabe 2. After All semuanya sudah cukup baik. cocok untuk
+                                    nongkrong bareng teman</p>
+                                <p class="card-text"><small class="text-body-secondary">15 September 2023</small></p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 600px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer2.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Riski Fuji</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">13 Desember 2023</small>
+                                </p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 600px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer3.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Informatika Pride</h5>
+                                <p class="card-text">Pertama kalinya merasakan suasana di bakmijawapariharto dengan
+                                    nuansa Jawa. Semuannya cukup baik dan tadi kami makan magelangan. Rasanya pas banget
+                                    di lidah</p>
+                                <p class="card-text"><small class="text-body-secondary">15 Desember 2023</small>
+                                </p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 600px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer4.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Reservasi</h5>
+                                <p class="card-text">Acara arisan yang diselenggarakan tiap 3 bulan sekali. kali ini
+                                    kami memilih tempat di bakmijawapariharto. Alhamdulillah tempatnya nyaman dengan
+                                    parkiran kendaraan yang luas dan pelayanan juga baik</p>
+                                <p class="card-text"><small class="text-body-secondary">25 Agustus 2023</small>
+                                </p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 600px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer5.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Rekan Kerja</h5>
+                                <p class="card-text">Rasa dan porsinya mantap.
+                                    Magelangan menu rekomen nya.Tempat nya agak tersembunyi, agk masuk dari jalan
+                                    raya.Tempat tapi dan luas. Sangat longgar.Layanan OK dan ada free kerupuk warna
+                                    warni.Rekomen bagi pencinta bakmi jawa.</p>
+                                <p class="card-text"><small class="text-body-secondary">2 Agustus 2023</small>
+                                </p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/Customer6.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kawan</h5>
+                                <p class="card-text">Dari segi tempat nyaman bgt,,bakmi nya lumayan..pesan pertama kali
+                                    pas bgt rasa dan tekstur mie nya,,pesan kedua kali rada kemanisan dan tekstur mienya
+                                    rada kelembekan..tp ya masih bisa di makan..rating 8/10 untuk semuanya menurtku</p>
+                                <p class="card-text"><small class="text-body-secondary">30 Juli 2023</small>
+                                </p>
+                                <p><a
+                                        href="https://www.google.com/search?q=bakmi+jawa+pariharto&oq=&gs_lcrp=EgZjaHJvbWUqCQgFECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQk0NzM4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x2e7af709823b43a9:0x5cb5b23deee7a567,1,,,,1">Selengkapnya</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="contact-info-box" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <i class="fa fa-volume-control-phone"></i>
+                    <div class="overflow-hidden">
+                        <h4>Phone</h4>
+                        <p class="lead">
+                            +62 821-3620-0485
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="fa fa-envelope"></i>
+                    <div class="overflow-hidden">
+                        <h4>Email</h4>
+                        <p class="lead">
+                            bakmijawapariharto@gmail.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="overflow-hidden">
+                        <h4>Location</h4>
+                        <p class="lead">
+                            Sidoarum, Godean, Sleman(DIY)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-area bg-f" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h3>Bakmi Jawa Pariharto</h3>
+                    <p>bakmijawapariharto dapat dipesan melalui GoFood dan juga via WhatsApp. hubungi kami melalui
+                        whatsapp untuk respon cepat</p>
+                    <p>Kesalahan dalam bentuk penyajian makanan dapat dilaporkan kebagian kasir agar segera diganti
+                        dengan yang semestinya</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Waktu</h3>
+                    <p><span class="text-color">Setiap Hari </span>Buka</p>
+                    <p><span class="text-color">17.00 - 22.00 </span>Buka</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Kontak </h3>
+                    <p class="lead">Hubungi Kami apabila ada pemesanan, kendala atau kritik dan saran</p>
+                    <p class="lead"><a
+                            href="https://api.whatsapp.com/send/?phone=082136200485&text&type=phone_number&app_absent=0">+62
+                            821-3620-0485</a></p>
+                    <p class="lead"><a href="mailto:bakmijawapariharto@gmail.com"> bakmijawapariharto@gmail.com</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3>Email</h3>
+                    <div class="subscribe-form">
+                        <form action="" class="subscribe-form">
+                            <input name="EMAIL" id="sub-email" class="form_input" placeholder="Email Address ..."
+                                type="email">
+                            <button type="submit" class="submit">kirim</button>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                    <ul class="list-inline f-social">
+                        <li class="list-inline-item"><a
+                                href="https://www.google.com/maps/place/Bakmi+Jawa+Pariharto/@-7.7807352,110.3143103,15z/data=!4m6!3m5!1s0x2e7af709823b43a9:0x5cb5b23deee7a567!8m2!3d-7.7807352!4d110.3143103!16s%2Fg%2F11kqj8knl9?entry=ttu"><i
+                                    class="fa-solid fa-location-dot"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a
+                                href="https://gofood.co.id/yogyakarta/restaurant/bakmi-jawa-pariharto-kramat-45983fc6-a0d0-45f7-b4c2-5423b22fd64b?page=5%2Ffastfood%2Fbrand%2F1138bc70-b1f0-436b-a2cb-cc2ef8264c9c%2F24_hours%2Fburger_sandwich_steak%2Fbrand%2F19cc044d-3f04-4141-81d4-cf9c02885774%2Fburger_sandwich_steak%2Fnew_merchant%2F24_hours"><i
+                                    class="fa-solid fa-bowl-rice"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a
+                                href="https://www.tiktok.com/search?q=bakmijawapariharto&t=1702838381885"><i
+                                    class="fa-brands fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a
+                                href="https://www.carikulinerindonesia.com/#11665753#bakmi-jawa-pariharto-jln-kramat-no-sidoarum"><i
+                                    class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/bakmijawapariharto/"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="companyName"> All Right Reserved. &copy;2023 <a href="">Bakmi Jawa Pariharto</a> Design
+                        by: <a href="">html design</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/89104220c0.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
