@@ -54,7 +54,7 @@ button:focus {
 .top-navbar {
     position: relative;
     z-index: 10;
-    background-color: #9E0000;
+    /* background-color: #9E0000; */
 }
 
 
@@ -72,6 +72,10 @@ button:focus {
     border-radius: 20px;
     max-height: 50px;
     width: max-content;
+}
+
+.top-navbar .navbar-nav a:hover {
+    color: #d0a772;
 }
 
 /* Float Shadow */
@@ -183,8 +187,9 @@ Qt background
     background-size: cover;
     padding: 100px 0;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     position: relative;
+
 }
 
 .qt-background p {
@@ -208,8 +213,9 @@ Qt background
 .card-img-top {
     border-radius: 50px;
     padding: 20px;
-    width: 15rem;
+    width: 16rem;
     height: 15rem;
+    margin-left: 4px;
 }
 
 .container .row .card {
@@ -223,6 +229,19 @@ Qt background
 
 .container .row .card-body {
     margin-top: -18px;
+}
+
+.menu-box .container h4 {
+    font-weight: bold;
+}
+
+.menu-box .container .menu-items {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-box .container .menu-items .menu-item {
+    width: 18rem;
 }
 
 /* ----------
@@ -329,6 +348,17 @@ Contact Info
     margin: 0px;
     color: #ffffff;
     font-weight: 300;
+}
+
+.col-md-12 button, .container .btn-reservasi, .about-section-box .btn, .menu-box .btn {
+    border: 2px solid #d0a772;
+    color: #d0a772;
+    font-weight: 700;
+}
+
+.col-md-12 button:hover, .container .btn-reservasi:hover, .about-section-box .btn:hover, .menu-box .btn:hover {
+    color: white;
+    background-color: #d0a772;
 }
 
 
@@ -535,10 +565,10 @@ All Pages
 
 /* RESPONSIVE */
 
-/* only small desktops */
+/* only small desktops
 /* tablets */
 /* only small tablets */
-@media only screen and (min-width: 992px) and (max-width: 1180px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1180px) {
     .footer-area h3 {
         font-size: 18px;
     }
@@ -644,4 +674,4 @@ All Pages
         margin-bottom: 0px;
         margin-top: 0px;
     }
-}
+} */ */

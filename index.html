@@ -11,8 +11,8 @@
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
 
-    <!-- Bootstrap CSS
-    <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Animated Css -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
@@ -27,17 +27,17 @@
 
 <body>
     <!-- Start Navbar -->
-    <header class="top-navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-lg-12 top-navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/logopendopo.png" class="animate__animated animate__bounceInLeft" alt="" />
                 </a>
-                <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
-                    aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbars-rs-food">
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ">
                         <li class="nav-item"><a class="hvr-float-shadow" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="hvr-float-shadow" href="about.html">Profil</a></li>
@@ -48,41 +48,23 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </div>
     <!-- End Navbar -->
 
-    <!-- Slides Start -->
-    <div id="carouselExampleCaptions" class="carousel slide">
-
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-
-            <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="container-fluid">
-                    <img src="img/Slide1.jpg" class="img-fluid" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block mb-5">
+                <img src="img/Slide1.jpg" class="d-block w-200" alt="...">
+                <div class="carousel-caption d-none d-md-block">
                     <h1>Parkir Luas</h1>
                     <p>Parkiran merupakan suatu hal yang menjadi pertimbangan menurut beberapa Customer <br> dengan
                         kondisi parkiran luas dan juga gratis menjadi daya tarik tersendiri dari tempat yang satu ini
                     </p>
                 </div>
             </div>
-            <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="container-fluid">
-                    <img src="img/Slide2.jpg" class="img-fluid" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block mb-5">
+                <img src="img/Slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
                     <h1>Area Sawah</h1>
                     <p>BakmiJawaPariharto berada di lokasi yang asri karena berada didaerah sawahan <br>yang dapat
                         menjadikan suasana sore bahkan malamnya menjadi lebih adem untuk berkumpul bersama orang
@@ -90,32 +72,30 @@
                     <p>Alamat: Area Sawah, Sidoarum, Kec. Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264</p>
                 </div>
             </div>
-            <!-- Slide 3 -->
             <div class="carousel-item">
-                <div class="container-fluid">
-                    <img src="img/Slide3.jpg" class="img-fluid" alt="...">
-                </div>
-                <div class="carousel-caption d-none d-md-block mb-5">
+                <img src="img/Slide3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
                     <h1>Tempat</h1>
                     <p>Kondisi tempat makan yang mengutamakan kebersihan dan kerapihan menjadi komitmen kami <br> dalam
                         pelayanan dan penyajian. Terdapat lesehan juga di area pendopo jika ingin lebih bersantai dan
                         menikmati suasa khas jawa</p>
                 </div>
             </div>
-
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
+    <!-- Slides Start -->
+
     <!-- End Slides -->
 
     <!-- About -->
@@ -138,7 +118,7 @@
                             jawa sekaligus suasana tempat yang bernuansa jawa. Bakmi Jawa Pariharto juga akan tetap
                             selalu mengevaluasi setiap masukan dan juga kritik dari customer sebagai bentuk keseriusan
                             kami akan menjaga cita rasa bakmi jawa yang ada.</p>
-                        <a href="#" class="btn btn-lg btn-circle btn-outline-new-white">Selengkapnya</a>
+                        <a href="about.html" class="btn btn-lg btn-circle btn-outline-new-white">Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -160,66 +140,78 @@
     </div>
 
     <!-- Menu -->
-    <div class="container py-5 text-center">
-        <h1 >Menu Kami</h1>
-        <p >Menu yang tersedia di Bakmi Jawa Pariharto. Setiap menu menggunakan bahan pokok Ayam
-            Kampung <br>dan juga Telur Bebek dengan komitmen menjaga kualitas rasa Masakan Bakmi Jawa</p>
-        <div class="row row-cols-1 row-cols-md-3 py-3 ">
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/BakmiGodog.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Bakmi Godog</h5>
-                        <p class="card-text">Bakmi Godog</p>
+    <div class="menu-box">
+        <div class="container py-5 ">
+            <div class="row text-center">
+                <h1>Pilihan Terbaik</h1>
+                <p>Menu yang tersedia di Bakmi Jawa Pariharto. Setiap menu menggunakan bahan pokok Ayam
+                    Kampung <br>dan juga Telur Bebek dengan komitmen menjaga kualitas rasa Masakan Bakmi Jawa.
+                    <br>Berikut adalah beberapa menu terbaik di bakmijawapariharto
+                </p>
+            </div>
+            <div class="row menu-items mt-5">
+                <div class="col-md-4 menu-item">
+                    <div class="card">
+                        <img src="img/BakmiGodog.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Bakmi Godog</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, earum.
+                            </p>
+                        </div>
+                        <div class="px-3">
+                            <h3>Rp. 20.000</h3>
+                        </div>
                     </div>
-                    <div class="px-3">
-                        <h3>Rp. 20.000</h3>
+                </div>
+
+                <div class="col-md-4 menu-item">
+                    <div class="card">
+                        <img src="img/BihunGoreng.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Bakmi Godog</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, earum.
+                            </p>
+                        </div>
+                        <div class="px-3">
+                            <h3>Rp. 20.000</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 menu-item">
+                    <div class="card">
+                        <img src="img/Magelangan.jpg" class="card-img-top alt=" ...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Bakmi Godog</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, earum.
+                            </p>
+                        </div>
+                        <div class="px-3">
+                            <h3>Rp. 20.000</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/BakmiGoreng.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Bakmi Godog</h5>
-                        <p class="card-text">Bakmi Godog</p>
-                    </div>
-                    <div class="px-3">
-                        <h3>Rp. 20.000</h3>
-                    </div>
+            <div class="row text-center mt-5">
+                <div class="col-lg-12">
+                    <a href="menu.html" class="btn btn-lg btn-circle btn-outline-new-white">Selengkapnya</a>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Capcay.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Bakmi Godog</h5>
-                        <p class="card-text">Bakmi Godog</p>
-                    </div>
-                    <div class="px-3">
-                        <h3>Rp. 20.000</h3>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
     <!-- Customer Review -->
-    <div class="container heading-swiper" id="customer">
-        <div class="row text-center mb-3">
+    <div class="container heading-swiper mt-5" id="customer">
+        <div class="row text-center">
             <div class="col lg-12">
-                <h3>Review Pengunjung</h3>
+                <h1>Review Pengunjung</h1>
                 <p>Kesan kesan, Saran dan kritik customer penting bagi kami untuk <br> mengevaluasi setiap pelayanan dan
                     juga penyajian</p>
             </div>
         </div>
     </div>
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mt-3">
         <div class="swiper-wrapper mt-3 mb-5">
 
             <div class="swiper-slide">
@@ -434,22 +426,22 @@
                         </form>
                     </div>
                     <ul class="list-inline f-social">
-                        <li class="list-inline-item"><a
+                        <li class="list-inline-item "><a
                                 href="https://www.google.com/maps/place/Bakmi+Jawa+Pariharto/@-7.7807352,110.3143103,15z/data=!4m6!3m5!1s0x2e7af709823b43a9:0x5cb5b23deee7a567!8m2!3d-7.7807352!4d110.3143103!16s%2Fg%2F11kqj8knl9?entry=ttu"><i
                                     class="fa-solid fa-location-dot"></i></a>
                         </li>
-                        <li class="list-inline-item"><a
+                        <li class="list-inline-item "><a
                                 href="https://gofood.co.id/yogyakarta/restaurant/bakmi-jawa-pariharto-kramat-45983fc6-a0d0-45f7-b4c2-5423b22fd64b?page=5%2Ffastfood%2Fbrand%2F1138bc70-b1f0-436b-a2cb-cc2ef8264c9c%2F24_hours%2Fburger_sandwich_steak%2Fbrand%2F19cc044d-3f04-4141-81d4-cf9c02885774%2Fburger_sandwich_steak%2Fnew_merchant%2F24_hours"><i
                                     class="fa-solid fa-bowl-rice"></i></a>
                         </li>
-                        <li class="list-inline-item"><a
+                        <li class="list-inline-item "><a
                                 href="https://www.tiktok.com/search?q=bakmijawapariharto&t=1702838381885"><i
                                     class="fa-brands fa-tiktok"></i></a>
                         </li>
-                        <li class="list-inline-item"><a
+                        <li class="list-inline-item "><a
                                 href="https://www.carikulinerindonesia.com/#11665753#bakmi-jawa-pariharto-jln-kramat-no-sidoarum"><i
                                     class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.instagram.com/bakmijawapariharto/"><i
+                        <li class="list-inline-item "><a href="https://www.instagram.com/bakmijawapariharto/"><i
                                     class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
