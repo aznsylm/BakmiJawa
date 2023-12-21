@@ -3,9 +3,10 @@
 	html {
 		font-size: 75%
 	}
-	.about-section-box img{
+
+	/* .about-section-box img{
 		display: block;
-	}
+	} */
 }
 
 /* Tablet */
@@ -13,15 +14,142 @@
 	html {
 		font-size: 62.5%;
 	}
+
+	.top-navbar .navbar a img {
+		display: flex;
+		margin-left: 5rem;
+	}
+
+	.top-navbar .navbar button {
+		display: flex;
+		margin-right: 5rem;
+	}
+
+	.top-navbar #navbarNav .nav-item {
+		margin-top: 2rem;
+	}
+
+	/* About */
+	.about-section-box .inner-column p {
+		font-size: 1.8rem;
+	}
+
+	.about-section-box .inner-column a, .menu-box a {
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+	.inner-column h1 {
+		font-size: 22px;
+	}
+
+	/* Menu */
+	.menu-box .text-center h1, #customer h1 {
+		font-size: 3rem
+	}
+
+	.menu-box .text-center p, #customer p {
+		font-size: 1.8rem;
+	}
+
+	/* Contact Info */
+	.contact-info-box .col-md-4 {
+		margin-bottom: 15px;
+	}
+
+	/* Footer */
+	.footer-area .col-lg-3 .f-social {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
 }
 
 /* Phone */
-@media (max-width: 450px) {
+@media (max-width: 550px) {
 	html {
 		font-size: 55%
 	}
 
+	.top-navbar .navbar a img {
+		display: flex;
+		margin-left: 5rem;
+	}
+
 	.top-navbar .navbar a img:hover {
 		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	}
+
+	.top-navbar .navbar button {
+		display: flex;
+		margin-right: 5rem;
+	}
+
+	.top-navbar #navbarNav .nav-item {
+		margin-top: 2rem;
+	}
+
+
+	#carousel .caraousel-inner img {
+		display: flex;
+		height: 100px;
+		width: 200px;
+	}
+
+	/* About */
+	.about-section-box .inner-column p {
+		font-size: 1.8rem;
+	}
+
+	.about-section-box .inner-column a, .menu-box a {
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
+
+	/* Qt-background */
+	.qt-background p, .qt-background .lead {
+		font-size: 3rem;
+		color: rgb(255, 255, 255);
+	}
+
+	.qt-background p:hover, .qt-background .lead:hover {
+		color: #000000;
+	}
+
+	/* Menu */
+	.menu-box .text-center h1, #customer h1 {
+		font-size: 3rem
+	}
+
+	.menu-box .text-center p, #customer p {
+		font-size: 1.8rem;
+	}
+
+	.menu-box .menu-items {
+		width: 100%;
+		gap: 20px;
+		display: flex;
+		justify-content: center center;
+	}
+
+	/* Quotes */
+
+	/* Customer */
+
+	/* Contact Info */
+	.contact-info-box .col-md-4 {
+		margin-bottom: 15px;
+		margin-left: 10px;
+	}
+
+	.contact-info-box .col-md-4 p {
+		font-size: 2rem;
+	}
+
+	/* Footer */
+	.footer-area .col-lg-3 .f-social {
+		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 }
