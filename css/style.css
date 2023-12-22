@@ -495,10 +495,9 @@ Footer
 }
 
 .copyright {
-    margin-top: 20px;
     position: relative;
     display: block;
-    border-top: 1px dashed rgba(207, 166, 113);
+    border-top: 2px dashed rgba(207, 166, 113);
     padding: 30px 0;
     z-index: 1;
 

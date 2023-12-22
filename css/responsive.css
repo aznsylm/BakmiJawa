@@ -63,6 +63,15 @@
 		display: flex;
 		justify-content: center;
 	}
+
+	/* Halaman Kontak */
+	.contact-box .heading-title h2 {
+		font-size: 3rem
+	}
+
+	.contact-box .heading-title p {
+		font-size: 1.8rem;
+	}
 }
 
 /* Phone */
@@ -97,13 +106,22 @@
 	}
 
 	/* About */
-	.about-section-box .inner-column p {
+	.about-section-box .inner-column p, .about-section-box .inner-pt p {
 		font-size: 1.8rem;
 	}
 
 	.about-section-box .inner-column a, .menu-box a {
 		font-size: 2rem;
 		margin-top: 2rem;
+	}
+
+	.heading-kru h2 {
+		font-size: 3rem
+	}
+
+	.about-kru .row {
+		display: block;
+		flex-direction: column;
 	}
 
 	/* Qt-background */
@@ -117,24 +135,46 @@
 	}
 
 	/* Menu */
-	.menu-box .text-center h1, #customer h1 {
+	.menu-box .text-center h1, #customer h1, #menu .text-center h1 {
 		font-size: 3rem
 	}
 
-	.menu-box .text-center p, #customer p {
+	.menu-box .text-center p, #customer p, #menu .text-center p {
 		font-size: 1.8rem;
 	}
 
 	.menu-box .menu-items {
 		width: 100%;
-		gap: 20px;
 		display: flex;
-		justify-content: center center;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+		gap: 5px;
+	}
+
+	#menu .menu-items .menu-item .card {
+		/* width: 300px; */
+		max-width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.heading-swiper h3 {
+		font-size: 3rem
+	}
+
+	.heading-swiper p {
+		font-size: 1.8rem;
 	}
 
 	/* Quotes */
 
 	/* Customer */
+	.swiper .swiper-wrapper {
+		display: flex;
+		width: 20rem;
+	}
 
 	/* Contact Info */
 	.contact-info-box .col-md-4 {
@@ -151,5 +191,14 @@
 		width: 100%;
 		display: flex;
 		justify-content: center;
+	}
+
+	/* Halaman Kontak */
+	.contact-box .heading-title h2 {
+		font-size: 3rem
+	}
+
+	.contact-box .heading-title p {
+		font-size: 1.5rem;
 	}
 }
