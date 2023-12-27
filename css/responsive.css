@@ -4,13 +4,10 @@
 		font-size: 75%
 	}
 
-	/* .about-section-box img{
-		display: block;
-	} */
 }
 
 /* Tablet */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	html {
 		font-size: 62.5%;
 	}
@@ -39,6 +36,17 @@
 		margin-top: 2rem;
 	}
 
+	.about-section-box .row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about-kru .row {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.inner-column h1 {
 		font-size: 22px;
 	}
@@ -50,6 +58,25 @@
 
 	.menu-box .text-center p, #customer p {
 		font-size: 1.8rem;
+	}
+
+	#menu .menu-items .menu-item .card h5 {
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+	#menu .menu-items .menu-item .card p {
+		font-size: 1.5rem;
+	}
+
+	/* Qt-background */
+	.qt-background p, .qt-background .lead {
+		font-size: 3rem;
+		color: rgb(255, 255, 255);
+	}
+
+	.qt-background p:hover, .qt-background .lead:hover {
+		color: #000000;
 	}
 
 	/* Contact Info */
@@ -72,6 +99,15 @@
 	.contact-box .heading-title p {
 		font-size: 1.8rem;
 	}
+
+	/* Reservasi */
+	#reservasi .container-table {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Halaman Kontak */
+	.map-full 
 }
 
 /* Phone */
@@ -97,7 +133,6 @@
 	.top-navbar #navbarNav .nav-item {
 		margin-top: 2rem;
 	}
-
 
 	#carousel .caraousel-inner img {
 		display: flex;
@@ -158,6 +193,15 @@
 		max-width: 100%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	#menu .menu-items .menu-item .card h5 {
+		font-size: 1.8rem;
+		font-weight: bold;
+	}
+
+	#menu .menu-items .menu-item .card p {
+		font-size: 1.5rem;
 	}
 
 	.heading-swiper h3 {
