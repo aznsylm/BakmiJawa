@@ -1,7 +1,7 @@
 /* Laptop */
 @media (max-width : 1366) {
 	html {
-		font-size: 75%
+		font-size: 75%;
 	}
 
 }
@@ -10,6 +10,11 @@
 @media (max-width: 800px) {
 	html {
 		font-size: 62.5%;
+		overflow-x: hidden;
+	}
+
+	body {
+		overflow-x: hidden;
 	}
 
 	.top-navbar .navbar a img {
@@ -45,6 +50,11 @@
 	.about-kru .row {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.about-section-box .row img {
+		width: 2rem;
+		height: auto;
 	}
 
 	.inner-column h1 {
@@ -107,18 +117,32 @@
 	}
 
 	/* Halaman Kontak */
-	.map-full 
+	.map-full iframe {
+		max-width: 50rem;
+		height: auto;
+	}
+
 }
 
 /* Phone */
 @media (max-width: 550px) {
+
 	html {
-		font-size: 55%
+		font-size: 55%;
+		overflow-x: hidden;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
 	}
 
 	.top-navbar .navbar a img {
 		display: flex;
 		margin-left: 5rem;
+		width: 10rem;
+		height: auto;
 	}
 
 	.top-navbar .navbar a img:hover {
@@ -134,10 +158,11 @@
 		margin-top: 2rem;
 	}
 
-	#carousel .caraousel-inner img {
+	/* Slides */
+	#carouselExampleAutoplaying .carousel-inner .caraousel-item {
 		display: flex;
-		height: 100px;
-		width: 200px;
+		width: 18rem;
+		height: auto;
 	}
 
 	/* About */
@@ -159,6 +184,11 @@
 		flex-direction: column;
 	}
 
+	.about-section-box .row img {
+		width: 22rem;
+		height: auto;
+	}
+
 	/* Qt-background */
 	.qt-background p, .qt-background .lead {
 		font-size: 3rem;
@@ -178,19 +208,20 @@
 		font-size: 1.8rem;
 	}
 
-	.menu-box .menu-items {
+	.menu-box .menu-items, #menu .menu-items {
 		width: 100%;
-		display: flex;
+		/* display: flex; */
 		justify-content: center;
-		flex-direction: column;
+		/* flex-direction: column; */
 		align-items: center;
 		margin: 0 auto;
 		gap: 5px;
 	}
 
-	#menu .menu-items .menu-item .card {
-		/* width: 300px; */
-		max-width: 100%;
+	#menu .menu-items .menu-item .card, #menu-box .menu-items .menu-item .card {
+		display: flex;
+		align-items: center;
+		width: 19rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -211,8 +242,6 @@
 	.heading-swiper p {
 		font-size: 1.8rem;
 	}
-
-	/* Quotes */
 
 	/* Customer */
 	.swiper .swiper-wrapper {
@@ -244,5 +273,11 @@
 
 	.contact-box .heading-title p {
 		font-size: 1.5rem;
+	}
+
+	/* Halaman Kontak */
+	.map-full iframe {
+		max-width: 40rem;
+		height: auto;
 	}
 }

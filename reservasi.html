@@ -66,54 +66,53 @@
                         <p>Silakan Isi Form Berikut Untuk Melakukan Reservasi/Booking.</p>
                     </div>
                     <div class="container-table p-4 text-center">
-                        <div class="row m-4">
-                            <div class="col">
-                                <p>Pesan</p>
-                                <div class="form-floating">
-                                    <input type="time" class="form-control" id="nama" placeholder="">
-                                    <label for="nama">Waktu</label>
+                        <div class="row  m-4">
+                            <div class="col ">
+                                <h5 style="font-weight: bold;">Waktu</h5>
+                                <div>
+                                    <input type="time" class="form-control form-control-lg" id="nama" placeholder=""
+                                        aria-label=".form-control-lg example">
                                 </div>
                             </div>
                             <div class="col">
-                                <p>Detail Customer</p>
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="Telephone" placeholder="">
-                                    <label for="Telephone">Nama</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row m-4">
-                            <div class="col">
-                                <div class="form-floating">
-                                    <input type="date" class="form-control" id="tanggal" placeholder="">
-                                    <label for="tanggal">Tanggal</label>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="form-floating">
-                                    <input type="tel" class="form-control" id="waktu" placeholder="">
-                                    <label for="waktu">No. Telephone</label>
+                                <h5 style="font-weight: bold;">Detail Customer</h5>
+                                <div>
+                                    <input type="text" class="form-control form-control-lg" id="Telephone"
+                                        placeholder="Nama" aria-label=".form-control-lg example">
                                 </div>
                             </div>
                         </div>
-                        <div class="row m-4">
+
+                        <div class="row  m-4">
+                            <div class="col ">
+                                <div>
+                                    <input type="date" class="form-control form-control-lg" id="tanggal" placeholder=""
+                                        aria-label=".form-control-lg example">
+                                </div>
+                            </div>
                             <div class="col">
-                                <div class="form-floating">
-                                    <select class="form-select" id="floatingSelect"
-                                        aria-label="Floating label select example">
-                                        <option selected>Pilih Tempat</option>
+                                <div>
+                                    <input type="tel" class="form-control form-control-lg" id="Telephone"
+                                        placeholder="No Hp/WA" aria-label=".form-control-lg example">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row  m-4">
+                            <div class="col ">
+                                <div>
+                                    <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                                        <option selected hidden>Pilihan Tempat</option>
                                         <option value="1">Meja Pendopo</option>
                                         <option value="2">Meja Outdoor</option>
-                                        <option value="4">Lesehan</option>
+                                        <option value="3">Lesehan</option>
                                     </select>
-                                    <label for="floatingSelect">Lokasi</label>
                                 </div>
-
                             </div>
                             <div class="col">
-                                <div class="form-floating">
-                                    <input type="number" class="form-control" id="jumlorang" placeholder="">
-                                    <label for="jumlorang">Jumlah Orang</label>
+                                <div>
+                                    <input type="number" class="form-control form-control-lg" id="jumOrang"
+                                        placeholder="Jumlah Orang" aria-label=".form-control-lg example">
                                 </div>
                             </div>
                         </div>
@@ -121,6 +120,12 @@
                 </form>
             </div>
         </div>
+
+        <div class="container-fluid text-center mb-5">
+            <h3 style="font-weight: bold;">Daftar Menu BakmiJawaPariharto</h3>
+            <a href="img/Menu.jpg" download>Lihat </a>
+        </div>
+
         <div class="text-center mt-3 mb-3">
             <button type="button" class="btn btn-lg btn-reservasi">Kirim Reservasi</button>
         </div>
